@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Merriweather&family=Playfair+Display:ital@1&display=swap');
+
+
+
+
+body{
+    background-color:rgb(36, 94, 94);
+    background-image: url("https://www.kurtbubna.com/wp-content/uploads/2015/02/Church-Sucks-Guitar-1024x683.jpg");
+
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    font-family:'Merriweather', serif;
+
+}
+nav ul{
+    display:flex;
+    text-align: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: rgb(23, 27, 75);
+    color: white;
+}
+nav ul li{
+    padding-top: 7px;
+    padding-right: 50px;
+    margin-right: 20px;
+}
+.iii{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: flex-start;
+    
+}
+.logo{
+    display:flex;
+    font-weight: bolder;
+    font-size: 1rem;
+    
+}
+.container{
+min-height: 75vh;
+background-color: black;
+color: aliceblue;
+font-family: 'Playfair Display', serif;
+display: flex;
+margin: 10px auto;
+width: 80%;
+border-radius: 10px;
+padding:10px;
+background-image:url("https://images.wallpapersden.com/image/download/microphone-rack-glare_amhtaG2UmZqaraWkpJRnZWltrWZmamc.jpg") ;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+background-color: rgb(12, 32, 58);
+display: flex;
+justify-content: center;
+align-items: center;
+bottom: 0%;
+color: aliceblue;
+flex-direction: column;
+}
+.icons{
+size: 10px;
+padding: 2px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+#myprogressbar{
+ width: 120vh;
+ cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 70px;
+
+}
+.songitem{
+    height:50px;
+    display: flex;
+    background-color: aliceblue;
+    width: 150%;
+    color: black;
+    margin: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songitem img{
+    width: 41px;
+    margin: 0px 25px ;
+    border-radius: 34px;
+}
+.time{
+    margin: 0px 23px;
+    padding: 20px;
+}
+.time i{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 30vw;
+    text-align:center;
+    padding: 0pxs;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+@media (max-width:500px){
+   
+   
+   
+    body{
+        background-color:rgb(36, 94, 94);
+        background-image: url("https://www.kurtbubna.com/wp-content/uploads/2015/02/Church-Sucks-Guitar-1024x683.jpg");
+    }
+ 
+    nav ul{
+        height: 10vh;
+        background-color: rgb(23, 27, 75);
+        width: 165vw;
+        padding: 1ch;
+        font-size: 4ch;
+        
+    }    
+    nav ul li{
+        padding-top: 2vh;
+        padding-right :17vw;
+        margin-right: 25vw;
+        border-radius: 6ch;
+        
+    }
+    
+h3{
+    font-size: 5ch;
+    padding-left: 3ch;
+}
+    .logo{
+        padding-top: 0;
+        padding-left: 0;
+        font-weight: bolder;
+        font-size: 1ch;
+        width: 5vw;
+        height: 5vh;
+        
+                
+    }
+    .container{
+        min-height: 80vh;
+        
+        margin: 10px; ;
+        width: 175vw;
+        border-radius: 3vh;
+        padding:0;
+        background-image:url("https://images.wallpapersden.com/image/download/microphone-rack-glare_amhtaG2UmZqaraWkpJRnZWltrWZmamc.jpg") ;
+        }
+        .songitemcontainer{
+            margin-top: 7vh;
+        
+        }
+        .songitem{
+            height:50px;
+            
+            
+            width: 150vw;
+        
+            margin: 5vh 0px;
+            justify-content: space-between;
+        
+            border-radius: 5vw;
+        }
+        .bottom{
+            
+            height: 20vh;
+            width: 178vw;
+            margin-top: 20vh;
+            border-radius: 3ch;
+        
+        }
+        .icons{
+            size: 10ch;
+            padding: 2ch;
+                margin-top:3ch;
+                
+        }
+        #myprogressbar{
+            width: 100vw;
+    
+           }
+           .songitemcontainer{
+               margin-top: 6ch;
+           
+           }
+           .songitem{
+               height:10ch;
+    font-size: 4ch;
+               width: 175vw;
+               border-radius:10ch;
+           }
+              
+                   
+
+}
